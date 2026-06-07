@@ -1,4 +1,6 @@
 using System.Reflection;
+using Microsoft.EntityFrameworkCore;
+using RoleWeb.DAL;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +15,7 @@ builder.Services.AddSwaggerGen(swagger =>
         Version = "v1"
     });
 
-    // Summary � UI Swagger
+    // Summary UI Swagger
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     
@@ -22,6 +24,12 @@ builder.Services.AddSwaggerGen(swagger =>
         swagger.IncludeXmlComments(xmlPath);
     }
 });
+
+builder.Services.AddDbContext<AppDBContext>(options =>
+    options.UseNpgsql(
+        builder.Configuration.GetConnectionString("Default"),
+        b => b.MigrationsAssembly("RoleWeb.DAL")
+    ));
 
 var app = builder.Build();
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoleWeb.BL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e3d83611d608fc7f2c5573b7a1c50e5307a0512")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoleWeb.BL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoleWeb.BL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
