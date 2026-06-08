@@ -1,0 +1,15 @@
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/bin/Debug/net8.0/RoleWeb.DAL.deps.json
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/bin/Debug/net8.0/RoleWeb.DAL.runtimeconfig.json
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/bin/Debug/net8.0/RoleWeb.DAL.dll
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/bin/Debug/net8.0/RoleWeb.DAL.pdb
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/obj/Debug/net8.0/RoleWeb.DAL.csproj.AssemblyReference.cache
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/obj/Debug/net8.0/RoleWeb.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/obj/Debug/net8.0/RoleWeb.DAL.AssemblyInfoInputs.cache
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/obj/Debug/net8.0/RoleWeb.DAL.AssemblyInfo.cs
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/obj/Debug/net8.0/RoleWeb.DAL.csproj.CoreCompileInputs.cache
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/obj/Debug/net8.0/RoleWeb.DAL.sourcelink.json
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/obj/Debug/net8.0/RoleWeb.DAL.dll
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/obj/Debug/net8.0/refint/RoleWeb.DAL.dll
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/obj/Debug/net8.0/RoleWeb.DAL.pdb
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/obj/Debug/net8.0/RoleWeb.DAL.genruntimeconfig.cache
+/Users/denishudenko/RiderProjects/RoleWeb/RoleWeb.DAL/obj/Debug/net8.0/ref/RoleWeb.DAL.dll
