@@ -15,5 +15,9 @@ public class UserConfiguration : IEntityTypeConfiguration<UserEntity>
 
         builder.Property(x => x.Name).IsRequired().HasMaxLength(150).HasColumnName("name");
         builder.Property(x => x.Email).HasMaxLength(500).HasColumnName("email");
+        
+        builder.HasMany(x => x.UserGroups)
+            .WithMany(x => x.Users)
+            .UsingEntity(name => name.ToTable("user_user_groups"));
     }
 }

@@ -8,7 +8,7 @@ public class GroupParameterConfiguration : IEntityTypeConfiguration<GroupParamet
 {
     public void Configure(EntityTypeBuilder<GroupParameterEntity> builder)
     {
-        builder.ToTable("userGroups");
+        builder.ToTable("group_parameters");
 
         builder.HasKey(x => x.GUID);
         builder.Property(x => x.GUID).HasColumnName("guid");
@@ -16,5 +16,11 @@ public class GroupParameterConfiguration : IEntityTypeConfiguration<GroupParamet
         builder.Property(x => x.Name).IsRequired().HasMaxLength(150).HasColumnName("name");
         
         builder.Property(x => x.NameJSON).IsRequired().HasColumnName("name_json");
+        
+        builder.HasOne(x => x.Parent)
+            .WithMany()
+            .HasForeignKey(x => x.ParentGUID)
+            .IsRequired(false)
+            .OnDelete(DeleteBehavior.Restrict);
     }
 }

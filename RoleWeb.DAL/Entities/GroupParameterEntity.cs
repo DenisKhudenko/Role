@@ -10,5 +10,9 @@ public class GroupParameterEntity
 
     public bool IsGroup { get; set; } // Признак "ЭтоГруппа" группового параметра
     
+    public string? ParentGUID { get; set; } // Уникальный идентификатор родителя
+    
     public GroupParameterEntity? Parent { get; set; } // Родитель группового параметра
+    
+    public List<UserGroupEntity> UserGroups { get; set; } // Список групп пользователей
 }

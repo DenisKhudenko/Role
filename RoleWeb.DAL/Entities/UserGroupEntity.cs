@@ -7,4 +7,6 @@ public class UserGroupEntity
     public required string Name { get; set; } // Наименование группы пользователей
     
     public List<GroupParameterEntity> Parameters { get; set; } // Список ссылок на групповые параметры
+    
+    public List<UserEntity> Users { get; set; } // Список пользователей
 }
